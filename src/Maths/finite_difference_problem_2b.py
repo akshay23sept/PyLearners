@@ -13,7 +13,7 @@ df1 = lambda x:2*x**3 - 1.2*x
 #for h in range (0.1,0.100,10):
 #defining the vector of x, linspace creates an 1-D array and the default value of number of its element is 50--change 
 #to 100 if you want
-h = 0.01
+h = 0.001
 x = np.linspace(-1,1)
 #plt.plot(x,df(x), '-k')
 plt.plot(x,df1(x), '-k')
@@ -21,7 +21,6 @@ plt.plot(x,df1(x), '-k')
 #FDS difference scheme
 dff1 = (f(x+h) - f(x))/h
 dff2 = (f(x+2*h) - 2*f(x+h) + f(x)) /h**2
-#dff2 = (f(x+2*h) - 2*f(x+h) + f(x)) /h**2
 #plt.plot(x,dff1, '-b')
 plt.plot(x,dff2, '-b')
 
@@ -38,7 +37,7 @@ dff2 = (f(x+h) - 2*f(x) + f(x-h)) /h**2
 plt.plot(x,dff2, '-g')
 plt.xlabel('f(x)')
 plt.ylabel('df*2/dx')
-plt.legend(["Theo", "FDS", "BDS", "CDS"])
+plt.legend(["Theoretical", "FDS", "BDS", "CDS"])
 plt.grid()
 plt.title('f(x) = 0.1*x**5 - 0.2*x**3 + 0.1*x - 0.2')
 plt.show()
