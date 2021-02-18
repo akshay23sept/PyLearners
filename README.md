@@ -9,7 +9,8 @@
 <li>Arithmatic Operators</li>
 <li>String Formatting</li>
 <li>Operation on Strings</li>
+  <li>Conditions</li>
 <li>Loops</li>
-<li>Lists</li>
+<li>Conditions</li>
 <li>Lists</li>
 </ol>
