@@ -12,5 +12,5 @@
 <li>Conditions</li>
 <li>Loops</li>
 <li>Fun with Python</li>
-<li>Lists</li>
+<li>Maths</li>
 </ol>
