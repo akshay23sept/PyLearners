@@ -8,4 +8,8 @@
 <li>Lists</li>
 <li>Arithmatic Operators</li>
 <li>String Formatting</li>
+<li>Operation on Strings</li>
+<li>Loops</li>
+<li>Lists</li>
+<li>Lists</li>
 </ol>
