@@ -11,6 +11,6 @@
 <li>Operation on Strings</li>
 <li>Conditions</li>
 <li>Loops</li>
+<li>Numerical Mathematics</li>
 <li>Fun with Python</li>
-<li>Maths</li>
 </ol>
